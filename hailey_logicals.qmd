@@ -1,0 +1,31 @@
+---
+title: "Hailey's Collab file"
+author: "Hailey"
+format: html
+editor: visual
+---
+
+## Logical Expressions
+
+hello! 
+
+Testing logical statements
+
+```{r}
+5 == 1 
+
+"cat" == "dog"
+"cat" == "cat"
+
+meds <- c(1, 2, 3, 4, 5)
+meds == 3
+meds == 1 | meds > 3
+
+teddy <- 5
+banjo <- 7
+tallie <- 4
+
+teddy <= banjo
+
+```
+
