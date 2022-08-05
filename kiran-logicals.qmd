@@ -1,0 +1,24 @@
+---
+title: "Kiran- logicals"
+format: html
+editor: visual
+---
+
+## A few logical expressions
+
+yo!
+
+```{r}
+5 == 1   #is 5 equal to 1?
+"cat" == "dog"  #is cat equal to dog?
+
+meds <- c(1, 2, 3, 4, 5)
+meds == 3
+meds == 1 | meds > 3  #is meds equal to one or greater than 3
+
+batman <- 5
+robin <- 7
+ozzie <- 4
+
+batman <= robin  # is batman greater than or equal to Robin?
+```
